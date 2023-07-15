@@ -1,9 +1,90 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 50px;
   text-align: center;
 }
+
+-----------------------------------------
+.body{
+  background-color: rgb(255, 0, 251);
+}
+.puppyId{
+  display: none;
+}
+
+.puppy{
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+
+  color: blue;
+  font-size: 25px;
+  padding-left: 50px;
+  font-size: 20px;
+  position: relative;
+  width: 500px;
+  padding-top: 5px;
+  
+  
+}
+
+
+.puppyInfo{
+  color: rgb(91, 15, 15);
+
+  font-size: 20px;
+  display: grid;
+  border: 2px;
+  border: color(rgb(116, 13, 13) red green blue);
+  text-align: center;
+  display: flow-root;
+  
+  
+}
+.App{
+  display: block;
+  display: grid;
+  background-color: rgb(143, 181, 146);
+  white-space: nowrap;
+
+  width: 500px;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  
+      
+}
+.click{
+  cursor: pointer;
+  padding-left: 50px;
+  white-space: nowrap;
+  padding-top: 10px;
+  padding: 20px;
+  padding-top: 5px;
+  border: 10px;
+  border: blue;
+  color: rgb(198, 17, 17);
+
+
+}
+.over{
+  cursor: pointer;
+        padding: 5px;
+        cursor: progress;
+        padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo {
   height: 6em;
